@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
-.App{
+html,.App{
   background-color: black;
 }
 
@@ -77,14 +77,15 @@
   width: 60%;
   height: 100vh;
   transform: translateX(30%);
-  background:url("https://i.pinimg.com/736x/26/0a/ab/260aabe53ceaa25745b904ff4ba82e2f.jpg");
+  background:url("https://i.pinimg.com/736x/96/8d/52/968d52235f3b42758e8499c35ac730eb.jpg");
   background-size: cover;
   position: relative;
   background-position: bottom;
-  top: 0;
+  top: -1rem;
   font-family: cursive;
   font-style: italic;
   text-align: center;
+  text-overflow:ellipsis;
 }
 
 .trivia{
@@ -95,13 +96,40 @@
 h2{
   font-size: 20px;
   margin: 1rem 0;
+  letter-spacing: 2px;
 }
 
 .answer{
-
+  font-size: 18px;
+  color: mediumblue;
 }
 
 .options{
   display: inline;
   margin: 0 1rem;
+}
+
+.submit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.sbmit-img1{
+  width: 15%;
+  position: relative;
+}
+
+.sbmit-img2{
+  width: 15%;
+  position: relative;
+}
+
+.submit-btn{
+  margin: 2rem 0;
+  padding:10px 1rem;
+  border-radius: 12px;
+  width: 8rem;
+  font-size: 17px;
 }
