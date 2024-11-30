@@ -133,3 +133,26 @@ h2{
   width: 8rem;
   font-size: 17px;
 }
+
+.score{
+  position: absolute;
+  bottom: 6rem;
+  color: red;
+  left: 4rem;
+}
+
+.correct {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.incorrect {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  padding: 5px;
+  border-radius: 5px;
+}
